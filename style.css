@@ -31,7 +31,6 @@ h1 {
 
 .answer {
   border-radius: 10px;
-  border: none;
   height: 20%;
   width: 100%;
   text-align: center;
@@ -53,8 +52,7 @@ h1 {
 
 /* Selected Option */
 .selected {
-  background-color: #333;
-  color: whitesmoke;
+  background: gold;
 }
 
 .enter.selected {
@@ -89,6 +87,7 @@ h1 {
 }
 
 .show-result {
+  background: gold;
   border: 10px solid #333;
   padding: 50px;
   margin-top: 20px;
