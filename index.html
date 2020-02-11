@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>WHAT YOU ARE?!?</title>
+</head>
+
+<body>
+  <main>
+    <h1>What You Are?!?</h1>
+    <div class="question" id="one">
+      <p>PICK ONLY ONE:</p>
+      <button class="answer a" onclick="selectOption('one', 'a')">Pizza Party</button>
+      <button class="answer b" onclick="selectOption('one', 'b')">Ax Throwing</button>
+      <button class="answer c" onclick="selectOption('one', 'c')">Tech Meetup</button>
+      <button class="answer d" onclick="selectOption('one', 'd')">Yoga Class</button>
+    </div>
+    <div class="question" id="two">
+      <p>Which One?</p>
+      <button class="answer a" onclick="selectOption('two', 'a')">Arya stark</button>
+      <button class="answer b" onclick="selectOption('two', 'b')">Daenerys Targarrion</button>
+      <button class="answer c" onclick="selectOption('two', 'c')">Tyrion Lanester</button>
+      <button class="answer d" onclick="selectOption('two', 'd')">Jaquin Hagar</button>
+    </div>
+    <div class="question" id="three">
+      <p>Now Relax:</p>
+      <button class="answer a" onclick="selectOption('three', 'a')">Bubble Bath</button>
+      <button class="answer b" onclick="selectOption('three', 'b')">Massage</button>
+      <button class="answer c" onclick="selectOption('three', 'c')">A Great Book</button>
+      <button class="answer d" onclick="selectOption('three', 'd')">Your favourite Tea</button>
+    </div>
+    <div class="question" id="four">
+      <p>Favourite Pizza Topping:</p>
+      <button class="answer a" onclick="selectOption('four', 'a')">Mushrooms</button>
+      <button class="answer b" onclick="selectOption('four', 'b')">Black Olives</button>
+      <button class="answer c" onclick="selectOption('four', 'c')">Pineapple</button>
+      <button class="answer d" onclick="selectOption('four', 'd')">Vegan Meat</button>
+    </div>
+    <div class="question" id="five">
+      <p>Choose ONE Donut:</p>
+      <button class="answer a" onclick="selectOption('five', 'a')">Boston Creme</button>
+      <button class="answer b" onclick="selectOption('five', 'b')">Birthday Sprinkles</button>
+      <button class="answer c" onclick="selectOption('five', 'c')">Rose Pistachio</button>
+      <button class="answer d" onclick="selectOption('five', 'd')">Toasted Coconut</button>
+    </div>
+    <div class="result">
+      <button class="enter" onclick="getResult()">GET RESULT</button>
+      <div id="showResult" class="show-result"></div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

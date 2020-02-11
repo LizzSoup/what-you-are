@@ -1,0 +1,30 @@
+.box {
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 40%;
+  height: 150px;
+}
+
+.pink {
+  background-color: #e9309f;
+}
+
+.orange {
+  background-color: #FF8F00;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.green {
+  background-color: #AEEA00;
+}
+
+.teal {
+  background-color: #4DB6AC;
+}
+
+.blue {
+  background-color: #42A5F5;
+}
